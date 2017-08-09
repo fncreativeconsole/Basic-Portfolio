@@ -1,0 +1,25 @@
+
+header {
+  background-color: #ffffff;
+  padding: 0 200px 0 100px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-bottom-width: 2px;
+}
+
+.logo {
+background-color: #4aaaa5;
+padding: 25px;
+width: 200px;
+color: white;
+}
+
+.nav {
+  display: block;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Georgia";
+
+}
