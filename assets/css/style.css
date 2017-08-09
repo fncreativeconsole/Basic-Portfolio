@@ -1,25 +1,126 @@
 
 header {
   background-color: #ffffff;
-  padding: 0 200px 0 100px;
   border-style: solid;
   border-color: #cccccc;
   border-bottom-width: 2px;
+  float: left;
+  width: 100%;
 }
+
 
 .logo {
 background-color: #4aaaa5;
 padding: 25px;
-width: 200px;
-color: white;
+width: 250px;
+}
+
+.logo-title {
+  color: white;
 }
 
 .nav {
-  display: block;
-}
+  position: relative;
+  clear: left;
+  float:right;
 
+}
 h1 {
   font-size: 36px;
   font-family: "Georgia";
+  color: #4aaaa5;
+  padding: 10px;
+}
 
+h2 {
+  font-size: 24px;
+  font-family: "Georgia";
+  color: #4aaaa5;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: #777777;
+  line-height: 1.5;
+}
+
+hr {
+  color: #777777;
+}
+
+.main-section {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding:30px;
+  margin: 50px;
+  width: 650px;
+  float: left;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding:40px;
+  margin: 50px;
+  width: 270px;
+float:left;
+}
+.sm-icons {
+  height:80px;
+  padding: 2px;
+}
+
+footer {
+  clear: left;
+  background-color: #666666;
+  padding:30px;
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-top-width: 5px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.fnimage {
+  height: 150px;
+  float: left;
+  padding: 10px;
+}
+
+form {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: #777777;
+  line-height: 1.5;
+}
+
+input {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+}
+textarea {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+button {
+  color: white;
+  font-size: 14px;
+  background-color: #4aaaa5;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+.portfolio-images {
+  height: 100px;
+  float: left;
 }
